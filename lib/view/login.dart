@@ -232,6 +232,7 @@ class _LoginState extends State<Login> {
                       child: Center(
                         child: Text(
                           'Login',
+                          key: const Key('loginButton'),
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 17,
@@ -260,6 +261,7 @@ class _LoginState extends State<Login> {
                           },
                           child: Text(
                             "Register",
+                            key: const Key('registerButton'),
                             style: TextStyle(color: Colors.blueAccent),
                           ),
                         ),
